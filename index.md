@@ -41,7 +41,7 @@ eventbrite: "43321670282"          # optional: alphanumeric key for Eventbrite r
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="248px"
+  height="280px"
   scrolling="auto">
 </iframe>
 {% endif %}
