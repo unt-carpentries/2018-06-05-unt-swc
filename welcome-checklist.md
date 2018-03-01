@@ -27,7 +27,7 @@ Before we begin, we ask that you complete the checklist to ensure that you have 
 * In the terminal, type `python --version`. You should see the version of your Python program listed.
     * If you receive an error message about python not being found, run the following command:
     ```
-    echo  ". \$HOME/AppData/Local/Continuum/anaconda3/Scripts/activate" > ~/.bashrc
+    echo  ". \$USERPROFILE/AppData/Local/Continuum/anaconda3/Scripts/activate" > ~/.bashrc
     ```
     then open a **new** terminal and try typing `python --version` again.
     * If you still receive an error message, put your red sticky note on the top of your laptop.
