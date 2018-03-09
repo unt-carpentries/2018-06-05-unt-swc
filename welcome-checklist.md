@@ -1,14 +1,14 @@
 ### Welcome to Software Carpentry
 
-Before we begin, we ask that you complete this checklist to ensure that you have access to wi-fi, the etherpad, and that all software is installed.
+Before we begin, we ask that you complete this list to ensure that you have access to wi-fi, the etherpad, and that all software is installed.
 
-* You should have received **two sticky notes**, one green (ready to go) and one red (having trouble), that you can use throughout the workshop to show the instructor and helper if things are going well or if you encounter any trouble.  If you have difficulty with any portion of the checklist, please place a red sticky note on the top of your laptop to indicate you need assistance. Once the issue is resolved, please take down the red sticky note.  Once you successfully complete the checklist, please place the green sticky note on your laptop to indicate that you are ready to begin.
+* You should have received **two sticky notes**, one green (ready to go) and one red (having trouble), that you can use throughout the workshop to show the instructors and helpers if things are going well or if you encounter any trouble.  If you have difficulty with any portion of this list, please place a red sticky note on the top of your laptop to indicate you need assistance. Once the issue is resolved, please take down the red sticky note.  Once you successfully complete the checklist, please place the green sticky note on your laptop to indicate that you are ready to begin.
 
 * Log-in to **eaglenet** network with your EUID. If you do not have an EUID, please place a red sticky note on your laptop and ask a helper for wifi credentials.
 
 * Open the webpage http://bit.ly/swc031418 to access the **Etherpad**.  We will use this Etherpad to share links and snippets of code, take notes, ask and answer questions, and whatever else comes to mind. To start, please add yourself to the attendee list.
 
-* If you have not downloaded any of the software used for these lessons, please go to the event page and follow the setup instructions at the bottom of the page: https://unt-carpentries.github.io/2018-03-14-unt-swc/. Once you have downloaded the software, please go through the steps below to verify everything is working.
+* If you have not downloaded any of the software used for these lessons, please go to the event page and follow the setup instructions at the bottom of the page: https://unt-carpentries.github.io/2018-03-14-unt-swc/. Once you have downloaded and installed the software, please go through the steps below to verify everything is working.
 
 ##### Open the bash shell
 
