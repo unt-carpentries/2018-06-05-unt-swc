@@ -2,7 +2,7 @@
 
 Before we begin, we ask that you complete this list to ensure that you have access to wi-fi, the etherpad, and that all software is installed.
 
-* You should have received **two sticky notes**, one green (ready to go) and one red (having trouble), that you can use throughout the workshop to show the instructors and helpers if things are going well or if you encounter any trouble.  If you have difficulty with any portion of this list, please place a red sticky note on the top of your laptop to indicate you need assistance. Once the issue is resolved, please take down the red sticky note.  Once you successfully complete the checklist, please place the green sticky note on your laptop to indicate that you are ready to begin.
+* You should have received **two sticky notes**, one green (ready to go) and one red (having trouble), that you can use throughout the workshop to show the instructors and helpers if things are going well or if you encounter any trouble.  If you have difficulty with any portion of this list, please place a red sticky note on the top of your laptop to indicate you need assistance. Once the issue is resolved, please take down the red sticky note.  Once you successfully complete the list, please place the green sticky note on your laptop to indicate that you are ready to begin.
 
 * Log-in to **eaglenet** network with your EUID. If you do not have an EUID, please place a red sticky note on your laptop and ask a helper for wifi credentials.
 
