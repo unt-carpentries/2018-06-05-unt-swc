@@ -307,35 +307,35 @@ eventbrite: "43321670282"          # optional: alphanumeric key for Eventbrite r
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
+            {% comment %} Git 2.16.2 Setup {% endcomment %}
             {% comment %} Information {% endcomment %}
-            <li>Click on "Next".</li>
+            <li>Click on "Next" to accept the license.</li>
+            {% comment %} Select Destination Location {% endcomment %}
+            <li>Click on "Next" to confirm installation location.</li>
             {% comment %} Select Components {% endcomment %}
-            <li>Click on "Next".</li>
+            <li>Click on "Next" with recommended components selected.</li>
+            {% comment %} Select Start Menu Folder {% endcomment %}
+            <li>Click on "Next" to create a "Git" Start Menu folder.</li>
+            {% comment %} Choosing the default editor used by Git {% endcomment %}
+            <li>
+              <strong>
+                Change the dropdown to "Use the Nano editor by default" and click on "Next".
+              </strong>
+            </li>
             {% comment %} Adjusting your PATH environment {% endcomment %}
-            <li>
-              <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-              </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-            </li>
-            {% comment %} Choosing the SSH executable {% endcomment %}
-            <li>Click on "Next".</li>
+            <li>Keep "Use Git from the Windows Command Prompt" selected and click on "Next".</li>
+            {% comment %} Choosing the HTTPS transport backend {% endcomment %}
+            <li>Keep "Use the OpenSSL library" selected and click on "Next".</li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
-            <li>
-              <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </strong>
-            </li>
+            <li>Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".</li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
             <li>
               <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
+                Change the selection to "Use Windows' default console window" and click on "Next".
               </strong>
             </li>
-            {% comment %} Configuring experimental performance tweaks {% endcomment %}
-            <li>Click on "Install".</li>
+            {% comment %} Configuring extra options {% endcomment %}
+            <li>Click on "Install" to keep the recommended selections and install.</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
             <li>Click on "Finish".</li>
