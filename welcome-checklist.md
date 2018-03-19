@@ -26,11 +26,18 @@ Before we begin, we ask that you complete this list to ensure that you have acce
 
 * In the terminal, type `python --version`. You should see the version of your Python program listed.
     * Mac and Linux: If you get an error or your version does not indicate "Anaconda", put your red sticky note on top of your laptop.
-    * Windows: If you receive an error message about python not being found, run the following command:
-      ```
-      echo  ". \$USERPROFILE/AppData/Local/Continuum/anaconda3/Scripts/activate" >> ~/.bashrc
-      ```
-      then open a **new** terminal and try typing `python --version` again.
+    * Windows: If you receive an error message about python not being found, do the following:
+      * Open the Anaconda Prompt and enter the following to find the path of the Anaconda3 directory:
+        ```
+        where python
+        ```
+        The output should show a path similar to `C:\Users\Username\Anaconda3\python.exe`.
+      * Convert that path by lower-casing the drive letter and removing the colon, replacing all instances of `\` with `/` including one at the beginning, and removing the last `\python.exe` part. So, for example, if you got `C:\Users\Username\Anaconda3\python.exe` from the previous step, you will use `/c/Users/Username/Anaconda3` for the next step.
+      * Go back to the terminal and run the following command, replacing `[Anaconda3 location]` with the path you generated in the previous step.
+        ```
+        echo  "source [Anaconda3 location]/Scripts/activate" >> ~/.bashrc
+        ```
+        then open a **new** terminal and try typing `python --version` again.
     * If you still receive an error message, put your red sticky note on the top of your laptop.
 * In the terminal, type `jupyter notebook` to run Jupyter Notebook. After a few seconds, text should appear in your terminal and Jupyter Notebook should pop up in a browser window. You can close the browser window and press `CTRL+C` in the terminal to exit the program.
     * If Jupyter Notebook doesn't open, put your red sticky note on the top of your laptop.
