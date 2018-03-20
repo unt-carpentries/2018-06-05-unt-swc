@@ -35,7 +35,7 @@ Before we begin, we ask that you complete this list to ensure that you have acce
       * Convert that path by lower-casing the drive letter and removing the colon, replacing all instances of `\` with `/` including one at the beginning, and removing the last `\python.exe` part. So, for example, if you got `C:\Users\Username\Anaconda3\python.exe` from the previous step, you will use `/c/Users/Username/Anaconda3` for the next step.
       * Go back to the terminal and run the following command, replacing `[Anaconda3 location]` with the path you generated in the previous step.
         ```
-        echo  "source [Anaconda3 location]/Scripts/activate" >> ~/.bashrc
+        echo  "source [Anaconda3 location]/Scripts/activate" >> ~/.profile
         ```
         then open a **new** terminal and try typing `python --version` again.
     * If you still receive an error message, put your red sticky note on the top of your laptop.
