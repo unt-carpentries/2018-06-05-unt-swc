@@ -32,7 +32,10 @@ Before we begin, we ask that you complete this list to ensure that you have acce
         where python
         ```
         The output should show a path similar to `C:\Users\Username\Anaconda3\python.exe`.
-      * Convert that path by lower-casing the drive letter and removing the colon, replacing all instances of `\` with `/` including one at the beginning, and removing the last `\python.exe` part. So, for example, if you got `C:\Users\Username\Anaconda3\python.exe` from the previous step, you will use `/c/Users/Username/Anaconda3` for the next step.
+      * Convert that path by doing the following:
+        * Replace all instances of `\` with `/`
+        * Replace `C:` with `/c`
+        * Remove the `\python.exe` part at the end
       * Go back to the terminal and run the following command, replacing `[Anaconda3 location]` with the path you generated in the previous step.
         ```
         echo  "source [Anaconda3 location]/Scripts/activate" >> ~/.profile
