@@ -32,7 +32,7 @@ Before we begin, we ask that you complete this list to ensure that you have acce
         where python
         ```
         The output should show a path similar to `C:\Users\Username\Anaconda3\python.exe`.
-      * Convert that path by doing the following:
+      * Convert that path for use in the next step by doing the following:
         * Replace all instances of `\` with `/`
         * Replace `C:` with `/c`
         * Replace `python.exe` with `Scripts/activate`
