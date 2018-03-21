@@ -42,7 +42,7 @@ Before we begin, we ask that you complete this list to ensure that you have acce
         ```
         echo  "source [Anaconda path]" >> ~/.profile && source ~/.profile
         ```
-        then open a **new** terminal and try typing `python --version` again.
+        then try typing `python --version` again.
     * If you still receive an error message, put your red sticky note on the top of your laptop.
 * In the terminal, type `jupyter notebook` to run Jupyter Notebook. After a few seconds, text should appear in your terminal and Jupyter Notebook should pop up in a browser window. You can close the browser window and press `CTRL+C` in the terminal to exit the program.
     * If Jupyter Notebook doesn't open, put your red sticky note on the top of your laptop.
