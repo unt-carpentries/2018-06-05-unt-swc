@@ -6,9 +6,9 @@ Before we begin, we ask that you complete this list to ensure that you have acce
 
 * Log-in to **eaglenet** network with your EUID. If you do not have an EUID, please place a red sticky note on your laptop and ask a helper for wifi credentials.
 
-* Open the webpage http://bit.ly/swc031418 to access the **Etherpad**.  We will use this Etherpad to share links and snippets of code, take notes, ask and answer questions, and whatever else comes to mind. To start, please add yourself to the attendee list.
+* Open the webpage http://bit.ly/swc060518 to access the **Etherpad**.  We will use this Etherpad to share links and snippets of code, take notes, ask and answer questions, and whatever else comes to mind. To start, please add yourself to the attendee list.
 
-* If you have not downloaded any of the software used for these lessons, please go to the event page and follow the setup instructions at the bottom of the page: https://unt-carpentries.github.io/2018-03-14-unt-swc/. Once you have downloaded and installed the software, please go through the steps below to verify everything is working.
+* If you have not downloaded any of the software used for these lessons, please go to the event page and follow the setup instructions at the bottom of the page: https://unt-carpentries.github.io/2018-06-05-unt-swc/. Once you have downloaded and installed the software, please go through the steps below to verify everything is working.
 
 ##### Open the bash shell
 
